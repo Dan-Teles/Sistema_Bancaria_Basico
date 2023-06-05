@@ -41,7 +41,7 @@ class Banco:
             # percorrer pelo VETOR (n_saque)
         for i,valor in self.n_saque.items():
             print(f"Saque {i} = R${valor:.2f}")
-        print(f"\nSaldo Atual: R${valor:.2f}".format(self.saldo))
+        print(f"\nSaldo Atual: R${self.valor}")
         os.system("pause")
 
 menu = """
